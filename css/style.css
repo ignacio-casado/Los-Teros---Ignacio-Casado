@@ -354,21 +354,45 @@ footer ul{
     padding-left: 534px;
 
 }
+.pregunta-nosotros{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: auto;
+}
 .imagenes-grid img{
     width: 50%;
     align-items: center;
 
 }
+@media screen and (max-width:765px) {
+    .pregunta-nosotros{
+        width: 100%;
+    }
+    .lista-footer{
+        width: 100%;
+    }
+    .mailFooter{
+        width: 100%;
+        font-size: 13px;
+    }
+}
 @media screen and (min-height:765px) {
-   
-    
+   .imagenes-grid{
+       grid-template-columns: 1fr;
+   }
+   .pregunta-nosotros{
+       grid-template-columns: 1fr;
+   }
 }
 @media screen and (min-width:1200){
     .imagenes-grid{
         grid-template-columns: 1fr 1fr;
         
     }
-    
+    .pregunta-nosotros{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /* valores */
 .encabezado-valores{
