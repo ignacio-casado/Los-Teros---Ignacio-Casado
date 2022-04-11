@@ -358,7 +358,9 @@ footer ul{
     display:flex;
     align-items: center;
     text-align: right;
+    
 }
+
 .titulo-valores h1{
     display: flex;
     justify-content: left;
@@ -368,7 +370,9 @@ footer ul{
     padding-bottom: 2%;
     padding-right: 7%;
 }
-
+.encabezado-valores .titulo-valores h1{
+    padding: 20px;
+}
 .pregunta-valores h2{
     margin: 20px 0px;
     padding: 20px 400px;
@@ -571,7 +575,9 @@ footer ul{
     padding-bottom: 2%;
     padding-right: 7%;
 }
-
+.encabezado-contacto .titulo-contacto h1{
+    padding: 20px;
+}
 form{
     display: grid;
     grid-template-columns: 1fr;
@@ -605,6 +611,9 @@ div.form{
     padding: 2px 20px;
     padding-top: 2px;
 }
+.formulario .form{
+    width: 100%;
+}
 /* help */
 .encabezado-ayuda{
     height: 300px;
@@ -622,9 +631,15 @@ div.form{
     padding-bottom: 2%;
     padding-right: 7%;
 }
-
+.encabezado-ayuda .titulo-ayuda h1{
+    padding: 20px;
+}
 .afirmacion-ayuda{
-    padding: 20px 500px;
+    width: 100%;
+    padding-left: 10px;
+}
+.afirmacion-contacto h2{
+    width: 100%;
 }
 div.preguntas{
     padding: 20px 100px;
@@ -632,6 +647,7 @@ div.preguntas{
 .imagen-hombre img{
     padding: 0px 50px;
 }
+
 .preguntas{
     display: grid;
     grid-template-columns: auto;
@@ -640,6 +656,10 @@ div.preguntas{
 }
 .preguntas-grid{
     display: grid;
+}
+#preguntas-frecuentes .preguntas{
+    width: 100%;
+
 }
 @media screen and (min-height:575px){
     .preguntas-grid{
