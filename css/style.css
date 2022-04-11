@@ -71,7 +71,7 @@ main{
     width: 100%;
 
 }
- 
+
 @media screen and (max-width:765px) {
     #valores{
         display: inline;
@@ -295,9 +295,12 @@ footer ul{
 }
 .pregunta-nosotros h2{
     margin: 40px 20px;
-    padding: 40px 600px;
+    width: 100%;
     display: inline;
     align-items: center;
+}
+#main-nosotros .pregunta-nosotros h2{
+    padding: 20px;
 }
 .texto-nosotros p{
     padding: 10px 120px;
@@ -368,12 +371,22 @@ footer ul{
     padding-bottom: 2%;
     padding-right: 7%;
 }
-
+.encabezado-valores .titulo-valores h1{
+    padding: 60px;
+}
+.main-valores{
+    text-decoration: none;
+}
+.pregunta-valores{
+    width: 100%;
+    display: block;
+}
 .pregunta-valores h2{
+    width: 100%;
     margin: 20px 0px;
-    padding: 20px 400px;
-    display: inline;
-    align-items: center;
+    padding-left: 60px;
+    display: flex;
+    
 }
 .pregunta-valores p{
     padding:33px 52px;
@@ -381,25 +394,36 @@ footer ul{
 .segunda-pregunta-valores h2{
     margin: 30px auto;
     padding: 20px 548px;
-    display: inline;
+    display: block;
     align-items: center;
 }
 .valores-lista{
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
 }
 .valores-lista li{
+    width: 100%;
     font-size: 30px;
 }
-.integridad-flex p{
+.valores-lista{
+    list-style: none;
+}
+.valores-lista .integridad-flex{
+    width: 100%;
+}
+.integridad-flex li p{
+    display: inline-flex;
+    width: 100%;
    padding: 10px 50px;
 }
 .integridad-flex li{
+    width: 100%;
     padding: 10px 656px;
 }
 .integridad-flex img{
+    width: 100%;
     display: grid;
     margin: auto;
     border: 4px outset #575151 ;
@@ -418,12 +442,14 @@ footer ul{
     padding: 10px 50px;
 }
 .pasion-flex-img{ 
+    width: 100%;
     margin-top: 20px;
     display:grid;
     gap: 10px;
     justify-content:flex-start;
 }
 .pasion-flex-img img{
+    width: 100%;
     border: 4px outset #575151 ;
 }
 .solidaridad-flex{
@@ -442,11 +468,13 @@ footer ul{
     width: 800px;
 }
 .solidaridad-flex-img{
+    width: 100%;
     display:grid;
     margin-top: 20px;
     justify-content:flex-start;
 }
 .solidaridad-flex-img img{
+    width: 100%;
     border: 4px outset #575151 ;
 }
 .disciplina-flex{
@@ -462,12 +490,14 @@ footer ul{
     padding: 10px 50px 
 }
 .disciplina-flex-img{
+    width: 100%;
     margin-top: 20px;
     display:grid;
     gap: 10px;
     justify-content:flex-start;
 }
 .disciplina-flex-img img{
+    width: 100%;
     border: 4px outset #575151 ;
 }
 .respeto-flex{
@@ -483,19 +513,21 @@ footer ul{
     padding: 10px 50px 
 }
 .respeto-flex-img{
+    width: 100%;
     display:grid;
     justify-content: flex-start;
 }
 .respeto-flex-img img{
+    width: 100%;
     padding-bottom: 7px;
     border: 4px outset #575151 ;
 }
 .valores-lista img{
     width: 100%;
 }
-@media screen and (min-height:576px) {
+@media screen and (max-height:576px) {
     .valores-lista{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     .respeto-flex{
         grid-template-columns: 1fr 1fr 1fr;
@@ -563,6 +595,7 @@ footer ul{
     text-align: right;
 }
 .titulo-contacto h1{
+    
     display: flex;
     justify-content: left;
     font-weight: bold;
@@ -571,12 +604,25 @@ footer ul{
     padding-bottom: 2%;
     padding-right: 7%;
 }
-
+.encabezado-contacto .titulo-contacto h1{
+    padding: 60px;
+}
 form{
+    padding: 0px 40px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-
+   
+}
+.form .formulario-grid{
+    width: 100%;
+}
+.formulario-grid{
+    width: 100%;
+}
+#formulario .form{
+    width: 100%;
+    padding: 20px;
 }
 @media screen and (min-height:575px) {
     .formulario-grid{
@@ -598,13 +644,10 @@ form{
     }
 }
 .afirmacion-contacto h2{
-    padding: 20px 350px;
+    padding: 0px 40px;
 
 }
-div.form{
-    padding: 2px 20px;
-    padding-top: 2px;
-}
+
 /* help */
 .encabezado-ayuda{
     height: 300px;
@@ -622,12 +665,15 @@ div.form{
     padding-bottom: 2%;
     padding-right: 7%;
 }
-
+.encabezado-ayuda .titulo-ayuda h1{
+    padding: 60px;
+}
 .afirmacion-ayuda{
-    padding: 20px 500px;
+    width: 100%;
 }
 div.preguntas{
-    padding: 20px 100px;
+    width: 100%;
+    padding: 20px 60px;
 }
 .imagen-hombre img{
     padding: 0px 50px;
