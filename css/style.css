@@ -95,27 +95,34 @@ main{
 }
 
 @media screen and (min-width:765px) {
+    .grid-item img{
+        width: 50%;
+    
+    }
     #home{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
     #introduccion{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
     #nosotros{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     #valores{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     #valores .valores-list ul{
         display: flex;
         flex-direction: column;
     }
     #contacto{
-        grid-template-columns: 1fr 1fr;  
+        grid-template-columns: 1fr ;  
     }
     #footer{
-        grid-template-columns: 1fr 1fr;   
+        grid-template-columns: 1fr ;   
+    }
+    .encabezado ul{
+        font-size: 20px;
     }
 }
 @media screen and (min-width:1200px) {
@@ -143,6 +150,16 @@ main{
     .vermas2{
         padding: 0px !important;
     }
+    .encabezado ul{
+        font-size: 30px;
+    }
+}
+.grid-item .homediv h2{
+    text-align: center;
+    padding: 20px;
+}
+.encabezado ul {
+    justify-content: center;
 }
 #introduccion .intro{
     margin: 30px auto;
@@ -256,7 +273,7 @@ footer {
     height: 200px;
     color:#dde8f3;
     text-align: center;
-    text-decoration:double;
+    text-decoration:none;
     font-family: 'Syncopate', sans-serif;
 }
 div.titulofooter h3{
