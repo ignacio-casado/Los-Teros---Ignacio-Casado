@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body{
@@ -12,6 +13,7 @@ body{
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
+    text-decoration: none;
 }
 
 
@@ -21,6 +23,7 @@ main{
     font-family: 'Syncopate', sans-serif;
     text-decoration: none;
 }
+
 .homediv h1{
     text-align: center;
 }
@@ -28,14 +31,7 @@ main{
     text-align: center;
     padding: 0px 0px 50px 0px;
 }
-#introduccion p{
-    padding: 20px;
-    margin: 20px;
-    text-align:left;
-}
-#introduccion .intro p{
-    text-align:left;
-}
+
 #home .grid-item{
     display: grid;
     grid-template-columns: 1fr;
@@ -44,10 +40,12 @@ main{
 }
 
 #introduccion{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-row: auto;
+    display: block;
+    align-items: center; 
+}
+#introduccion #carouselExampleIndicators {
+    align-items: center;
+    padding: 20px 200px 0px 200px;
 }
 #nosotros{
     display: grid;
@@ -73,6 +71,9 @@ main{
 }
 
 @media screen and (max-width:765px) {
+    #introduccion #carouselExampleIndicators{
+        padding: 0;
+    }
     #valores{
         display: inline;
     }
@@ -92,6 +93,9 @@ main{
         width: 100%;
         font-size: 13px;
     }
+    footer{
+        text-decoration: none;
+    }
 }
 
 @media screen and (min-width:765px) {
@@ -99,12 +103,14 @@ main{
         width: 50%;
     
     }
+    .vermas{
+        padding: 0px;
+        width: 100%;
+    }
     #home{
         grid-template-columns: 1fr ;
     }
-    #introduccion{
-        grid-template-columns: 1fr ;
-    }
+   
     #nosotros{
         grid-template-columns: 1fr;
     }
@@ -129,9 +135,7 @@ main{
     #home{
         grid-template-columns: 1fr;
     }
-    #introduccion{
-        grid-template-columns: 1fr;
-    }
+    
     #nosotros{
         grid-template-columns: 1fr ;
     }
