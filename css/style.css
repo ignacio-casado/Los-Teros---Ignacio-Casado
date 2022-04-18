@@ -48,10 +48,8 @@ main{
     padding: 20px 200px 0px 200px;
 }
 #nosotros{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-    grid-row: auto;
+    display:inline;
+    padding: 0px 40px;
 }
 #valores{
     display: grid;
@@ -99,6 +97,7 @@ main{
 }
 
 @media screen and (min-width:765px) {
+   
     .grid-item img{
         width: 50%;
     
@@ -162,6 +161,11 @@ main{
     text-align: center;
     padding: 20px;
 }
+.encabezado .titulo h1{
+    font-family:'Syncopate', sans-serif ;
+    font-weight: 500;
+    padding: 30px;
+}
 .encabezado ul {
     justify-content: center;
 }
@@ -186,11 +190,8 @@ div.ver a{
     
 }
 #valores h2 {
-    margin: 20px auto;
     text-align: center;
-    padding: 20px 0px 35px 0px;
-    
-    
+    padding: 5px 0px 35px 0px;  
 }
 #valores .valoresc{
     margin: 20px auto;
@@ -220,9 +221,10 @@ div.ver a{
 }
 
 #contacto h2{
-    margin: 20px auto;
+    margin-top: 20px;
+    border-radius: 3%;
     text-align: center;
-    padding: 35px 0px 20px 0px;
+    padding: 5px 0px 0px;
 }
 #contacto {
     margin: 20px 0px 20px 0px;
@@ -273,7 +275,7 @@ div.vermas2 a {
 }
 footer {
     display:block;
-    text-decoration-style: double;
+    text-decoration-style: none;
     height: 200px;
     color:#dde8f3;
     text-align: center;
@@ -297,16 +299,14 @@ footer ul{
     height: 300px;
     font-size: 21px;
     display:flex;
-    justify-content: flex-end;
     align-items: center;
     text-align: right;
     padding-right: 20px;
 }
 .encabezado-nosotros .titulo-nosotros h1{
-    padding: 0px 60px;
+    padding:60px;
 }
 .titulo-nosotros h1{
-    display: flex;
     justify-content: left;
     font-weight: bold;
     color: #d4d4e7;
@@ -314,8 +314,8 @@ footer ul{
     padding-bottom: 2%;
     padding-right: 7%;
 }
+
 .pregunta-nosotros h2{
-    margin: 40px 20px;
     width: 100%;
     display: inline;
     align-items: center;
@@ -328,23 +328,14 @@ footer ul{
     align-items: center;
 
 }
-.imagenes-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:repeat(3, auto);
-    padding-left: 534px;
-
-}
 .pregunta-nosotros{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     width: auto;
 }
-.imagenes-grid img{
-    width: 50%;
-    align-items: center;
-
+#galeria .sponsors ul li{
+    height:100%;
 }
 @media screen and (max-width:765px) {
     .pregunta-nosotros{
@@ -358,23 +349,7 @@ footer ul{
         font-size: 13px;
     }
 }
-@media screen and (min-height:765px) {
-   .imagenes-grid{
-       grid-template-columns: 1fr;
-   }
-   .pregunta-nosotros{
-       grid-template-columns: 1fr;
-   }
-}
-@media screen and (min-width:1200){
-    .imagenes-grid{
-        grid-template-columns: 1fr 1fr;
-        
-    }
-    .pregunta-nosotros{
-        grid-template-columns: 1fr 1fr;
-    }
-}
+
 /* valores */
 .encabezado-valores{
     height: 300px; 
@@ -404,8 +379,7 @@ footer ul{
 }
 .pregunta-valores h2{
     width: 100%;
-    margin: 20px 0px;
-    padding-left: 60px;
+    padding:20px;
     display: flex;
     
 }
@@ -413,197 +387,39 @@ footer ul{
     padding:33px 52px;
 }
 .segunda-pregunta-valores h2{
-    margin: 30px auto;
-    padding: 20px 548px;
-    display: block;
+    padding: 40px;
+    display: inline;
     align-items: center;
 }
-.valores-lista{
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
+#segunda-parte-valores #carouselExampleIndicators{
+    padding: 20px 200px 0px 200px;
 }
-.valores-lista li{
-    width: 100%;
-    font-size: 30px;
+#segunda-parte-valores #carouselExampleIndicators p{
+    background-color: black;
 }
-.valores-lista{
-    list-style: none;
+#carouselExampleIndicators .carousel-indicators{
+    padding: 0px 0px 50px;;
 }
-.valores-lista .integridad-flex{
-    width: 100%;
-}
-.integridad-flex li p{
-    display: inline-flex;
-    width: 100%;
-   padding: 10px 50px;
-}
-.integridad-flex li{
-    width: 100%;
-    padding: 10px 656px;
-}
-.integridad-flex img{
-    width: 100%;
-    display: grid;
-    margin: auto;
-    border: 4px outset #575151 ;
-    justify-content: flex-start;
-}
-.pasion-flex{
-    margin-top: 20px;
-    padding: 10px;
-}
-.pasion-flex li{
-    margin-top: 20px;
-    padding: 0px 656px;
-}
-.pasion-flex p{
-    margin-top: 20px;
-    padding: 10px 50px;
-}
-.pasion-flex-img{ 
-    width: 100%;
-    margin-top: 20px;
-    display:grid;
-    gap: 10px;
-    justify-content:flex-start;
-}
-.pasion-flex-img img{
-    width: 100%;
-    border: 4px outset #575151 ;
-}
-.solidaridad-flex{
-    margin-top: 20px;
-    padding: 10px;
-}
-.solidaridad-flex p{
-    margin-top: 20px;
-    padding: 10px 50px
-}
-.solidaridad-flex li{
-    margin-top: 20px;
-    padding: 0px 656px;
-}
-.valores-lista .solidaridad-flex-img img{
-    width: 800px;
-}
-.solidaridad-flex-img{
-    width: 100%;
-    display:grid;
-    margin-top: 20px;
-    justify-content:flex-start;
-}
-.solidaridad-flex-img img{
-    width: 100%;
-    border: 4px outset #575151 ;
-}
-.disciplina-flex{
-    margin-top: 20px;
-    padding: 10px;
-}
-.disciplina-flex li{
-    margin-top: 20px;
-    padding: 0px 656px;
-}
-.disciplina-flex p{
-    margin-top: 20px;
-    padding: 10px 50px 
-}
-.disciplina-flex-img{
-    width: 100%;
-    margin-top: 20px;
-    display:grid;
-    gap: 10px;
-    justify-content:flex-start;
-}
-.disciplina-flex-img img{
-    width: 100%;
-    border: 4px outset #575151 ;
-}
-.respeto-flex{
-    margin-top: 20px;
-    padding: 10px;
-}
-.respeto-flex li{
-    margin-top: 20px;
-    padding: 0px 656px;
-}
-.respeto-flex p{
-    margin-top: 20px;
-    padding: 10px 50px 
-}
-.respeto-flex-img{
-    width: 100%;
-    display:grid;
-    justify-content: flex-start;
-}
-.respeto-flex-img img{
-    width: 100%;
-    padding-bottom: 7px;
-    border: 4px outset #575151 ;
-}
-.valores-lista img{
-    width: 100%;
-}
-@media screen and (max-height:576px) {
-    .valores-lista{
-        grid-template-columns: 1fr;
+@media screen and (max-width: 765px) {
+   
+    #segunda-parte-valores #carouselExampleIndicators{
+        padding:0;
     }
-    .respeto-flex{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .disciplina-flex{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .solidaridad-flex{
-        grid-template-columns: 1fr 1fr 1fr; 
-    }
-    .pasion-flex{
-        grid-template-columns: 1fr 1fr 1fr;   
-    }
-    .integridad-flex{
-        grid-template-columns: 1fr 1fr 1fr;
+    #carouselExampleIndicators .carousel-indicators{
+        padding: 0px 0px 300px;
     }
 }
-@media screen and (min-height:768px) {
-    .valores-lista{
-        grid-template-columns: 1fr 1fr;
+@media screen and (min-width: 765px) {
+    #segunda-parte-valores #carouselExampleIndicators{
+        padding: 20px 200px 0px 200px;
     }
-    .respeto-flex{
-        grid-template-columns: 1fr 1fr;
-    }
-    .disciplina-flex{
-        grid-template-columns: 1fr 1fr;
-    }
-    .solidaridad-flex{
-        grid-template-columns: 1fr 1fr; 
-    }
-    .pasion-flex{
-        grid-template-columns: 1fr 1fr;   
-    }
-    .integridad-flex{
-        grid-template-columns: 1fr 1fr;
+    #carouselExampleIndicators .carousel-indicators{
+        padding: 0px 0px 140px;
     }
 }
 @media screen and (min-width:1200px) {
-    .valores-lista{
-        grid-template-columns: 1fr;
-    }
-    .respeto-flex{
-        grid-template-columns: 1fr;
-    }
-    .disciplina-flex{
-        grid-template-columns: 1fr;
-    }
-    .solidaridad-flex{
-        grid-template-columns: 1fr; 
-    }
-    .pasion-flex{
-        grid-template-columns: 1fr;   
-    }
-    .integridad-flex{
-        grid-template-columns: 1fr;
+    #segunda-parte-valores #carouselExampleIndicators{
+        padding: 20px 300px 50px 300px;
     }
     
 }
@@ -629,7 +445,7 @@ footer ul{
     padding: 60px;
 }
 form{
-    padding: 0px 40px;
+    padding: 0px 40px 30px 40px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -641,9 +457,9 @@ form{
 .formulario-grid{
     width: 100%;
 }
-#formulario .form{
+.form .formulario-grid{
+    padding: 30px;
     width: 100%;
-    padding: 20px;
 }
 @media screen and (min-height:575px) {
     .formulario-grid{
@@ -663,9 +479,10 @@ form{
     .formulario-grid{
         grid-template-columns: 1fr 1fr 1fr;
     }
+   
 }
 .afirmacion-contacto h2{
-    padding: 0px 40px;
+    padding:20px;
 
 }
 
@@ -691,6 +508,7 @@ form{
 }
 .afirmacion-ayuda{
     width: 100%;
+    padding: 20px;
 }
 div.preguntas{
     width: 100%;
@@ -706,19 +524,26 @@ div.preguntas{
 
 }
 .preguntas-grid{
-    display: grid;
+    display:block;
 }
-@media screen and (min-height:575px){
+#preguntas-frecuentes .preguntas p{
+    padding-right: 40px;
+}
+@media screen and (max-height:575px){
     .preguntas-grid{
         grid-template-columns: 1fr;
     }
-    
+    .imagen-hombre img{
+        width: 70%;
+    }
 }
 @media screen and (min-height:768px){
     .preguntas-grid{
         grid-template-columns: 1fr 1fr;
     }
-    
+    .imagen-hombre img{
+        width:500px;
+    }
 }
 @media screen and (min-height:1200px){
     .preguntas-grid{
