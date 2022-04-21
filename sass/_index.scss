@@ -41,6 +41,11 @@ body{
             padding-bottom: 20px;
         }
     }
+    #introduccion{
+        padding: 20px 200px;
+        #carouselExamppleIndicators{
+        }
+    }
     #nosotros{
         .grid-item{
             div{
@@ -97,8 +102,9 @@ body{
             }
             .video{
                 display: inline;
-                align-items: center;
-                padding: 20px;
+                width: 800px;
+                height: 800px;
+                padding: 100px;
             }
             .vinculo-valores{
                 .vermas2{
@@ -115,45 +121,49 @@ body{
 }
 #footer{
     height: 300px;
-    border: #f0f8ff solid 2px ;
+    border-top: #f0f8ff solid 2px ;
+    color: #f0f8ff;
     .grid-item{
-        .titulofooter{
-            h3{
-                color: red;
-                text-align: center;
-            }
-        }
+        padding: 40px 0px 0px 31px;
+        .redessociales{
+            ul{
+                display: flex;
+                justify-content: space-around;
+                li{
+                    a{
+                        text-decoration-style:none;
+                    }
+        }   }   }
     }
     #contacto{
-        .contactogrid{
-            .grid-item{
-                div{
-                    h2{
-                        text-align: left;
-                        padding-left: 50px;
-                        font-weight:1000; 
-                        color: #0f0d0d;
-                    }
-                }
-                .iframecontacto{
-                    display: inline-flex;
-                    align-items: left;
-                    p{
-                        text-align:center;
-                        margin-top: 50px;
-                        font-weight: 1000;
-                        padding: 30px;
-                        color: #0f0d0d;  
-                    }
-                    iframe{
-
-                        margin-bottom: 400px;
-                        padding: 20%; 
-                        
-                    
-                    }
-                }
+        div{
+            h2{
+                display: inline;
+                text-align: center;
+                padding-left: 30px;
+                margin-bottom: 40px;
+                font-weight:1000; 
+                color: #0f0d0d;
             }
         }
+        .iframecontacto{
+            align-items: left;
+            p{
+                text-align:right;
+                display: inline;
+                font-size: 20px;
+                font-weight: 1000;
+                padding: 31px;
+                width: 100%;
+                color: #0f0d0d;  
+            }
+            iframe{
+                margin: -215px 50px 0px 980px;
+                padding: 20px;
+                padding-top: 20px;
+            }
+                
+        }
     }
+    
 }

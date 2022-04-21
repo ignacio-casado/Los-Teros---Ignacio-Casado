@@ -40,6 +40,10 @@ body {
   padding-bottom: 20px;
 }
 
+#principal #introduccion {
+  padding: 20px 200px;
+}
+
 #principal #nosotros .grid-item div h2 {
   text-align: center;
   padding: 20px;
@@ -99,10 +103,9 @@ body {
 
 #principal #valores .grid-item .video {
   display: inline;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 20px;
+  width: 800px;
+  height: 800px;
+  padding: 100px;
 }
 
 #principal #valores .grid-item .vinculo-valores .vermas2 {
@@ -115,39 +118,54 @@ body {
 
 #footer {
   height: 300px;
-  border: #f0f8ff solid 2px;
+  border-top: #f0f8ff solid 2px;
+  color: #f0f8ff;
 }
 
-#footer .grid-item .titulofooter h3 {
-  color: red;
+#footer .grid-item {
+  padding: 40px 0px 0px 31px;
+}
+
+#footer .grid-item .redessociales ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#footer .grid-item .redessociales ul li a {
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+}
+
+#footer #contacto div h2 {
+  display: inline;
   text-align: center;
-}
-
-#footer #contacto .contactogrid .grid-item div h2 {
-  text-align: left;
-  padding-left: 50px;
+  padding-left: 30px;
+  margin-bottom: 40px;
   font-weight: 1000;
   color: #0f0d0d;
 }
 
-#footer #contacto .contactogrid .grid-item .iframecontacto {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+#footer #contacto .iframecontacto {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
 }
 
-#footer #contacto .contactogrid .grid-item .iframecontacto p {
-  text-align: center;
-  margin-top: 50px;
+#footer #contacto .iframecontacto p {
+  text-align: right;
+  display: inline;
+  font-size: 20px;
   font-weight: 1000;
-  padding: 30px;
+  padding: 31px;
+  width: 100%;
   color: #0f0d0d;
 }
 
-#footer #contacto .contactogrid .grid-item .iframecontacto iframe {
-  margin-bottom: 400px;
-  padding: 20%;
+#footer #contacto .iframecontacto iframe {
+  margin: -215px 50px 0px 980px;
+  padding: 20px;
+  padding-top: 20px;
 }
