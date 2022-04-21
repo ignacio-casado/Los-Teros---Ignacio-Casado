@@ -156,29 +156,25 @@ body{
                 color: #0f0d0d;  
             }
             iframe{
-                margin: -215px 50px 0px 980px;
                 padding: 20px;
                 padding-top: 20px;
+                margin-left: 392px;
             }
                 
         }
     }
     
 }
-@media screen and (min-height:765px){
+@media screen and (min-height:765px) {
     #principal{
-        #introduccion{
-            padding: 0;
-        }
-    }
-}
-@media screen and (min-height:1200px){
-    #principal{
-        #introduccion{
-            #carouselExampleIndicators{
-                padding:20px 200px 0px 200px ;
+        #valores{
+            .grid-item{
+                ul{
+                    li{
+                        display: flex;
+                    }
+                }
             }
-            
         }
     }
 }
