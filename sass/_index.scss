@@ -41,9 +41,6 @@ body{
             padding-bottom: 20px;
         }
     }
-    #introduccion{
-        padding: 20px 200px;
-    }
     #nosotros{
         .grid-item{
             div{
@@ -103,13 +100,14 @@ body{
                 width: 800px;
                 height: 800px;
                 padding: 100px;
+                margin-left: 398px;
             }
             .vinculo-valores{
                 .vermas2{
                     text-decoration:none;
                     color: #f0f8ff;
                     display:inline-block;
-                    padding: 0px 750px;
+                    padding: 50px;
                     border: none;
                 }
             }
@@ -146,6 +144,7 @@ body{
         }
         .iframecontacto{
             align-items: left;
+            display: inline;
             p{
                 text-align:right;
                 display: inline;
@@ -154,11 +153,12 @@ body{
                 padding: 31px;
                 width: 100%;
                 color: #0f0d0d;  
+                margin-bottom: 600px;
             }
             iframe{
                 padding: 20px;
                 padding-top: 20px;
-                margin-left: 392px;
+                margin-bottom: -190px;
             }
                 
         }
@@ -166,15 +166,22 @@ body{
     
 }
 @media screen and (min-height:765px) {
-    #principal{
-        #valores{
-            .grid-item{
+    #footer{
+        height: 300px;
+        border-top: #f0f8ff solid 2px ;
+        color: #f0f8ff;
+        .grid-item{
+            padding: 40px 0px 0px 31px;
+            .redessociales{
                 ul{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    justify-content: space-around;
                     li{
-                        display: flex;
-                    }
-                }
-            }
+                        a{
+                            text-decoration-style:none;
+                        }
+            }   }   }
         }
     }
 }

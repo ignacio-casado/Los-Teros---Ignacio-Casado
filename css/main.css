@@ -40,10 +40,6 @@ body {
   padding-bottom: 20px;
 }
 
-#principal #introduccion {
-  padding: 20px 200px;
-}
-
 #principal #nosotros .grid-item div h2 {
   text-align: center;
   padding: 20px;
@@ -106,13 +102,14 @@ body {
   width: 800px;
   height: 800px;
   padding: 100px;
+  margin-left: 398px;
 }
 
 #principal #valores .grid-item .vinculo-valores .vermas2 {
   text-decoration: none;
   color: #f0f8ff;
   display: inline-block;
-  padding: 0px 750px;
+  padding: 50px;
   border: none;
 }
 
@@ -152,6 +149,7 @@ body {
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;
+  display: inline;
 }
 
 #footer #contacto .iframecontacto p {
@@ -162,18 +160,35 @@ body {
   padding: 31px;
   width: 100%;
   color: #0f0d0d;
+  margin-bottom: 600px;
 }
 
 #footer #contacto .iframecontacto iframe {
   padding: 20px;
   padding-top: 20px;
-  margin-left: 392px;
+  margin-bottom: -190px;
 }
 
 @media screen and (min-height: 765px) {
-  #principal #valores .grid-item ul li {
+  #footer {
+    height: 300px;
+    border-top: #f0f8ff solid 2px;
+    color: #f0f8ff;
+  }
+  #footer .grid-item {
+    padding: 40px 0px 0px 31px;
+  }
+  #footer .grid-item .redessociales ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  #footer .grid-item .redessociales ul li a {
+    -webkit-text-decoration-style: none;
+            text-decoration-style: none;
   }
 }
