@@ -194,6 +194,9 @@ $titulos: (
 );
 @each $nombre, $valor in $titulos {
     .tit__#{$nombre} {
+        @media screen and (max-height:1200px) {
+            display: inline-block;
+        }
         color:white;
         background-color: $valor;
         margin-left: 20px;

@@ -200,10 +200,22 @@ body {
   margin-left: 20px;
 }
 
+@media screen and (max-height: 1200px) {
+  .tit__tit1 {
+    display: inline-block;
+  }
+}
+
 .tit__tit2 {
   color: white;
   background-color: #a46262;
   margin-left: 20px;
+}
+
+@media screen and (max-height: 1200px) {
+  .tit__tit2 {
+    display: inline-block;
+  }
 }
 
 .tit__tit3 {
@@ -212,16 +224,34 @@ body {
   margin-left: 20px;
 }
 
+@media screen and (max-height: 1200px) {
+  .tit__tit3 {
+    display: inline-block;
+  }
+}
+
 .tit__tit4 {
   color: white;
   background-color: #a46262;
   margin-left: 20px;
 }
 
+@media screen and (max-height: 1200px) {
+  .tit__tit4 {
+    display: inline-block;
+  }
+}
+
 .tit__tit5 {
   color: white;
   background-color: #a46262;
   margin-left: 20px;
+}
+
+@media screen and (max-height: 1200px) {
+  .tit__tit5 {
+    display: inline-block;
+  }
 }
 
 /* map-get */
