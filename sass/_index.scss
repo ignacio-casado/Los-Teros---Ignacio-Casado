@@ -16,7 +16,7 @@ body{
     font-family: 'Syncopate', sans-serif; 
 }
 .encabezado{
-    height: 300px;
+    height: 163px;
     font-size: 21px;
         .section-1{
             .titulo{
@@ -31,6 +31,7 @@ body{
             ul {
                 justify-content: center;
                 font-size: 1.4rem;
+                border: none;
             }
         }
 }
@@ -155,6 +156,19 @@ body{
     }
 }
 
+@media screen and (max-height:811px){
+    #principal{
+        section{
+           #carouselExampleIndicators{
+               .carousel-inner{
+                   padding-top: 78px;
+               }
+           } 
+        }
+    }
+    
+}
+
 /* nosotros */
 body{
     .encabezado-nosotros{
@@ -189,3 +203,134 @@ body{
     }
 }
     
+/* valores */
+.encabezado-valores{
+    .titulo-valores{
+        h1{
+            padding: 20px;
+        }
+    }
+    .men2{
+        .nav-tabs{
+            justify-content: center;
+        }
+
+    }
+}
+.main-valores{
+    .section-valores{
+        .pregunta-valores{
+            h2{
+                padding: 30px;
+                font-weight: 500;
+            }
+            
+        }
+        .respuesta-valores{
+            p{
+                font-weight: 700;  
+                padding: 0px 30px;
+            }
+        }
+    }
+    #segunda-parte-valores{
+        .segunda-pregunta-valores{
+            h2{
+                text-align: center;
+            }
+        }
+    }
+    .valores-lista1{
+        .scrollspy-example{
+            h4{
+                padding: 0px 30px;
+                font-weight: 700;
+            }
+            p{
+                font-weight: 900;
+                padding: 30px; 
+            }
+        }
+    }
+    .world-rugby{
+        .info{
+            text-align: center;
+        }
+    }
+}
+/* contacto */
+.encabezado-contacto{
+    .titulo-contacto{
+        h1{
+            padding: 20px;
+        }
+    }
+    .men3{
+        .nav-tabs{
+            justify-content: center;
+        }
+    }
+
+}
+main{
+    .afirmacion-contacto{
+        h2{
+            padding: 50px 30px;
+            font-weight: 500;
+        }
+    }
+    .formulario{
+        font-weight: 700;
+        padding-left: 30px;
+        text-align: center;
+        justify-content: center;
+        border: #f0f8ff solid 3px;
+        border-radius: 4%;
+        
+ 
+        .form{
+            justify-content: center;
+            .formulario-grid{
+                padding: 20px;
+                justify-content: center;
+            }
+        }
+    }
+}
+/* ayuda */
+.encabezado-ayuda{
+    .titulo-ayuda{
+        h1{
+            padding: 20px;
+        }
+    }
+    .men4{
+        .nav-tabs{
+            justify-content: center;
+        }
+
+    }
+}
+main{
+    .parte-uno-ayuda{
+        .afirmacion-ayuda{
+            h2{
+                padding: 20px;
+            }
+        }
+        
+    }
+    #preguntas-frecuentes{
+        font-weight: 900;
+        .preguntas{
+            text-align: center;
+            padding: 30px;
+            .preguntas-grid{
+                background-color: #f0f8ff;
+                ul{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

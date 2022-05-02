@@ -18,7 +18,7 @@ body {
 }
 
 .encabezado {
-  height: 300px;
+  height: 163px;
   font-size: 21px;
 }
 
@@ -33,11 +33,16 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 1.4rem;
+  border: none;
 }
 
 #principal #home h2 {
   text-align: center;
   padding-bottom: 20px;
+}
+
+#principal #introduccion #carouselExampleIndicators {
+  padding: 30px;
 }
 
 #principal #nosotros .grid-item div h2 {
@@ -114,59 +119,16 @@ body {
 }
 
 #footer {
-  height: 300px;
-  border-top: #f0f8ff solid 3px;
-  color: #f0f8ff;
+  background-color: #0f0d0d;
 }
 
-#footer .grid-item {
-  padding: 40px 0px 0px 31px;
-}
-
-#footer .grid-item .redessociales ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-#footer .grid-item .redessociales ul li a {
+#footer .container {
   -webkit-text-decoration-style: none;
           text-decoration-style: none;
 }
 
-#footer #contacto div h2 {
-  display: inline;
-  text-align: center;
-  padding-left: 30px;
-  margin-bottom: 40px;
-  font-weight: 1000;
-  color: #0f0d0d;
-}
-
-#footer #contacto .iframecontacto {
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  display: inline;
-}
-
-#footer #contacto .iframecontacto p {
-  text-align: right;
-  display: inline;
-  font-size: 20px;
-  font-weight: 1000;
-  padding: 31px;
-  width: 100%;
-  color: #0f0d0d;
-  margin-bottom: 600px;
-}
-
-#footer #contacto .iframecontacto iframe {
-  padding: 20px;
-  padding-top: 20px;
-  margin-bottom: -190px;
+#footer .container .align-items-center .col iframe {
+  padding: 40px;
 }
 
 @media screen and (min-height: 765px) {
@@ -193,6 +155,12 @@ body {
   }
 }
 
+@media screen and (max-height: 811px) {
+  #principal section #carouselExampleIndicators .carousel-inner {
+    padding-top: 78px;
+  }
+}
+
 /* nosotros */
 body .encabezado-nosotros .titulo-nosotros .h1-nosotros {
   padding: 20px;
@@ -216,4 +184,115 @@ body #main-nosotros .section-nosotros .pregunta-nosotros h2 {
 body #main-nosotros .section-nosotros .texto-nosotros p {
   padding: 30px;
   font-weight: 700;
+}
+
+/* valores */
+.encabezado-valores .titulo-valores h1 {
+  padding: 20px;
+}
+
+.encabezado-valores .men2 .nav-tabs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-valores .section-valores .pregunta-valores h2 {
+  padding: 30px;
+  font-weight: 500;
+}
+
+.main-valores .section-valores .respuesta-valores p {
+  font-weight: 700;
+  padding: 0px 30px;
+}
+
+.main-valores #segunda-parte-valores .segunda-pregunta-valores h2 {
+  text-align: center;
+}
+
+.main-valores .valores-lista1 .scrollspy-example h4 {
+  padding: 0px 30px;
+  font-weight: 700;
+}
+
+.main-valores .valores-lista1 .scrollspy-example p {
+  font-weight: 900;
+  padding: 30px;
+}
+
+.main-valores .world-rugby .info {
+  text-align: center;
+}
+
+/* contacto */
+.encabezado-contacto .titulo-contacto h1 {
+  padding: 20px;
+}
+
+.encabezado-contacto .men3 .nav-tabs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .afirmacion-contacto h2 {
+  padding: 50px 30px;
+  font-weight: 500;
+}
+
+main .formulario {
+  font-weight: 700;
+  padding-left: 30px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: #f0f8ff solid 3px;
+  border-radius: 4%;
+}
+
+main .formulario .form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .formulario .form .formulario-grid {
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* ayuda */
+.encabezado-ayuda .titulo-ayuda h1 {
+  padding: 20px;
+}
+
+.encabezado-ayuda .men4 .nav-tabs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .parte-uno-ayuda .afirmacion-ayuda h2 {
+  padding: 20px;
+}
+
+main #preguntas-frecuentes {
+  font-weight: 900;
+}
+
+main #preguntas-frecuentes .preguntas {
+  text-align: center;
+  padding: 30px;
+}
+
+main #preguntas-frecuentes .preguntas .preguntas-grid {
+  background-color: #f0f8ff;
+}
+
+main #preguntas-frecuentes .preguntas .preguntas-grid ul {
+  text-decoration: none;
 }
