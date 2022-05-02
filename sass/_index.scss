@@ -184,67 +184,39 @@ body{
             }   }   }
         }
     }
-}/* map */
-$titulos: (
-    tit1: #a46262, 
-    tit2: #a46262,
-    tit3: #a46262,
-    tit4: #a46262,
-    tit5: #a46262,
-);
-@each $nombre, $valor in $titulos {
-    .tit__#{$nombre} {
-        @media screen and (max-height:1200px) {
-            display: inline-block;
+}
+
+/* nosotros */
+body{
+    .encabezado-nosotros{
+        .titulo-nosotros{
+            .h1-nosotros{
+                padding: 20px;
+            }
         }
-        color:white;
-        background-color: $valor;
-        margin-left: 20px;
-
+        .men{
+            text-decoration: none;
+            .nav-tabs{
+                justify-content: center;
+            }
+            
+        }
+    }
+    #main-nosotros{
+        .section-nosotros{
+            .pregunta-nosotros{
+                h2{
+                    padding: 30px;
+                    font-weight: 500;
+                }
+            }
+            .texto-nosotros{
+                p{
+                    padding: 30px;
+                    font-weight: 700;
+                }
+            }
+        }
     }
 }
-/* map-get */
-$letra:(
-    head: sans-serif,
-    main:  sans-serif,
-    footer: sans-serif,
-);
-.letra-index {
-    font: map-get($map: $letra, $key: letra, );
-}
-/* extend */
-.contact-iframe{
-    border: #62504e solid 2px;
-}
-.contact-iframe--border{
-    @extend .contact-iframe;
-    border-radius: 40%;
-    border-color: antiquewhite;
-}
-/* mixins */
-/* utilice el display none para que se vea que lo realice pero molestaba en el proyecto */
-@mixin text {
-    display: none;
-    padding: 5px;
-
-
-}
-.text-adv{
-    @include text;
-}
-
-@media screen and (max-height: 768px){
-    .contact-iframe{
-        display: none;
-    }
-    .valores-list-item{
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (min-height:1200px){
-    .valores-list-item{
-        justify-content: space-between;
-    }
-}
+    

@@ -193,104 +193,27 @@ body {
   }
 }
 
-/* map */
-.tit__tit1 {
-  color: white;
-  background-color: #a46262;
-  margin-left: 20px;
+/* nosotros */
+body .encabezado-nosotros .titulo-nosotros .h1-nosotros {
+  padding: 20px;
 }
 
-@media screen and (max-height: 1200px) {
-  .tit__tit1 {
-    display: inline-block;
-  }
+body .encabezado-nosotros .men {
+  text-decoration: none;
 }
 
-.tit__tit2 {
-  color: white;
-  background-color: #a46262;
-  margin-left: 20px;
+body .encabezado-nosotros .men .nav-tabs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-@media screen and (max-height: 1200px) {
-  .tit__tit2 {
-    display: inline-block;
-  }
+body #main-nosotros .section-nosotros .pregunta-nosotros h2 {
+  padding: 30px;
+  font-weight: 500;
 }
 
-.tit__tit3 {
-  color: white;
-  background-color: #a46262;
-  margin-left: 20px;
-}
-
-@media screen and (max-height: 1200px) {
-  .tit__tit3 {
-    display: inline-block;
-  }
-}
-
-.tit__tit4 {
-  color: white;
-  background-color: #a46262;
-  margin-left: 20px;
-}
-
-@media screen and (max-height: 1200px) {
-  .tit__tit4 {
-    display: inline-block;
-  }
-}
-
-.tit__tit5 {
-  color: white;
-  background-color: #a46262;
-  margin-left: 20px;
-}
-
-@media screen and (max-height: 1200px) {
-  .tit__tit5 {
-    display: inline-block;
-  }
-}
-
-/* map-get */
-/* extend */
-.contact-iframe, .contact-iframe--border {
-  border: #62504e solid 2px;
-}
-
-.contact-iframe--border {
-  border-radius: 40%;
-  border-color: antiquewhite;
-}
-
-/* mixins */
-/* utilice el display none para que se vea que lo realice pero molestaba en el proyecto */
-.text-adv {
-  display: none;
-  padding: 5px;
-}
-
-@media screen and (max-height: 768px) {
-  .contact-iframe, .contact-iframe--border {
-    display: none;
-  }
-  .valores-list-item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media screen and (min-height: 1200px) {
-  .valores-list-item {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
+body #main-nosotros .section-nosotros .texto-nosotros p {
+  padding: 30px;
+  font-weight: 700;
 }
