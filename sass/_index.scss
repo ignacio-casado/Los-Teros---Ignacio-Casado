@@ -41,6 +41,11 @@ body{
             padding-bottom: 20px;
         }
     }
+    #introduccion{
+        #carouselExampleIndicators{
+            padding: 30px;
+        }
+    }
     #nosotros{
         .grid-item{
             div{
@@ -118,6 +123,7 @@ body{
 #footer{
     background-color: #0f0d0d;
     .container{
+        text-decoration-style: none;
         .align-items-center{
             .col{
                 iframe{
