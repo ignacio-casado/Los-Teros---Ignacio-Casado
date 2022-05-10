@@ -120,11 +120,18 @@ body {
 
 #footer {
   background-color: #0f0d0d;
+  color: #f0f8ff;
 }
 
 #footer .container {
   -webkit-text-decoration-style: none;
           text-decoration-style: none;
+}
+
+#footer .container .align-items-center .col {
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  color: #f0f8ff;
 }
 
 #footer .container .align-items-center .col iframe {
@@ -199,26 +206,39 @@ body #main-nosotros .section-nosotros .texto-nosotros p {
 
 .main-valores .section-valores .pregunta-valores h2 {
   padding: 30px;
-  font-weight: 500;
+  color: #f0f8ff;
+  font-weight: 900;
 }
 
 .main-valores .section-valores .respuesta-valores p {
   font-weight: 700;
   padding: 0px 30px;
+  text-align: center;
+  color: #f0f8ff;
+  font-weight: 900;
 }
 
 .main-valores #segunda-parte-valores .segunda-pregunta-valores h2 {
   text-align: center;
+  color: #f0f8ff;
+  font-weight: 900;
+}
+
+.main-valores .valores-lista1 .scrollspy-example {
+  padding-top: 40px;
 }
 
 .main-valores .valores-lista1 .scrollspy-example h4 {
+  text-align: center;
   padding: 0px 30px;
-  font-weight: 700;
+  color: #f0f8ff;
+  font-weight: 900;
 }
 
 .main-valores .valores-lista1 .scrollspy-example p {
   font-weight: 900;
   padding: 30px;
+  color: #f0f8ff;
 }
 
 .main-valores .world-rugby .info {
