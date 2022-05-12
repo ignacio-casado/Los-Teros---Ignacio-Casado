@@ -124,6 +124,7 @@ body{
 #footer{
     background-color: #0f0d0d;
     color: #f0f8ff;
+    height: 300px;
     .container{
         text-decoration-style: none;
         .align-items-center{
@@ -141,26 +142,6 @@ body{
         }
     }
     
-}
-@media screen and (min-height:765px) {
-    #footer{
-        height: 300px;
-        border-top: #f0f8ff solid 2px ;
-        color: #f0f8ff;
-        .grid-item{
-            padding: 40px 0px 0px 31px;
-            .redessociales{
-                ul{
-                    display: flex;
-                    flex-wrap: nowrap;
-                    justify-content: space-around;
-                    li{
-                        a{
-                            text-decoration-style:none;
-                        }
-            }   }   }
-        }
-    }
 }
 
 @media screen and (max-height:811px){
@@ -383,6 +364,7 @@ main{
     .titulo-ayuda{
         h1{
             padding: 20px;
+            font-weight: 900;
         }
     }
     .men4{

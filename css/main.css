@@ -121,6 +121,7 @@ body {
 #footer {
   background-color: #0f0d0d;
   color: #f0f8ff;
+  height: 300px;
 }
 
 #footer .container {
@@ -141,30 +142,6 @@ body {
 
 #footer .container .align-items-center .col iframe {
   padding: 40px;
-}
-
-@media screen and (min-height: 765px) {
-  #footer {
-    height: 300px;
-    border-top: #f0f8ff solid 2px;
-    color: #f0f8ff;
-  }
-  #footer .grid-item {
-    padding: 40px 0px 0px 31px;
-  }
-  #footer .grid-item .redessociales ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-  #footer .grid-item .redessociales ul li a {
-    -webkit-text-decoration-style: none;
-            text-decoration-style: none;
-  }
 }
 
 @media screen and (max-height: 811px) {
@@ -358,6 +335,7 @@ main .formulario .form .formulario-grid {
 /* ayuda */
 .encabezado-ayuda .titulo-ayuda h1 {
   padding: 20px;
+  font-weight: 900;
 }
 
 .encabezado-ayuda .men4 .nav-tabs {
