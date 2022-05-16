@@ -122,6 +122,7 @@ body {
   background-color: #0f0d0d;
   color: #f0f8ff;
   height: 300px;
+  bottom: 0;
 }
 
 #footer .container {
@@ -148,12 +149,17 @@ body {
   #principal section #carouselExampleIndicators .carousel-inner {
     padding-top: 78px;
   }
+  #footer {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 /* nosotros */
 body .encabezado-nosotros .titulo-nosotros .h1-nosotros {
   padding: 20px;
   font-weight: 900;
+  color: #f0f8ff;
 }
 
 body .encabezado-nosotros .men {
@@ -187,6 +193,7 @@ body .imagenes-nosotros .container .row-cols-2 col img {
 .encabezado-valores .titulo-valores h1 {
   padding: 20px;
   font-weight: 900;
+  color: #f0f8ff;
 }
 
 .encabezado-valores .men2 .nav-tabs {
@@ -273,6 +280,7 @@ body .imagenes-nosotros .container .row-cols-2 col img {
 .encabezado-contacto .titulo-contacto h1 {
   padding: 20px;
   font-weight: 900;
+  color: #f0f8ff;
 }
 
 .encabezado-contacto .men3 .nav-tabs {
@@ -284,6 +292,7 @@ body .imagenes-nosotros .container .row-cols-2 col img {
 main .afirmacion-contacto h2 {
   padding: 50px 30px;
   font-weight: 900;
+  color: #f0f8ff;
 }
 
 main .formulario {
@@ -336,6 +345,7 @@ main .formulario .form .formulario-grid {
 .encabezado-ayuda .titulo-ayuda h1 {
   padding: 20px;
   font-weight: 900;
+  color: #f0f8ff;
 }
 
 .encabezado-ayuda .men4 .nav-tabs {
@@ -348,6 +358,7 @@ main .parte-uno-ayuda .afirmacion-ayuda h2 {
   padding: 20px;
   text-align: center;
   font-weight: 900;
+  color: #f0f8ff;
 }
 
 main #preguntas-frecuentes {

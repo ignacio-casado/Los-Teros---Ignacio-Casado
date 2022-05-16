@@ -125,6 +125,8 @@ body{
     background-color: #0f0d0d;
     color: #f0f8ff;
     height: 300px;
+    bottom: 0;
+    
     .container{
         text-decoration-style: none;
         .align-items-center{
@@ -144,6 +146,7 @@ body{
     
 }
 
+
 @media screen and (max-height:811px){
     #principal{
         section{
@@ -154,7 +157,10 @@ body{
            } 
         }
     }
-    
+    #footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 /* nosotros */
@@ -164,6 +170,7 @@ body{
             .h1-nosotros{
                 padding: 20px;
                 font-weight: 900;
+                color: #f0f8ff;
             }
         }
         .men{
@@ -214,6 +221,7 @@ body{
         h1{
             padding: 20px;
             font-weight: 900;
+            color: #f0f8ff;
         }
     }
     .men2{
@@ -305,6 +313,7 @@ body{
         h1{
             padding: 20px;
             font-weight: 900;
+            color: #f0f8ff;
         }
     }
     .men3{
@@ -319,6 +328,7 @@ main{
         h2{
             padding: 50px 30px;
             font-weight: 900;
+            color: #f0f8ff;
         }
     }
     .formulario{
@@ -365,6 +375,7 @@ main{
         h1{
             padding: 20px;
             font-weight: 900;
+            color: #f0f8ff;
         }
     }
     .men4{
@@ -381,6 +392,7 @@ main{
                 padding: 20px;
                 text-align: center;
                 font-weight: 900;
+                color: #f0f8ff;
             }
         }
         
